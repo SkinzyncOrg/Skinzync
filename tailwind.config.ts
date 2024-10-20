@@ -10,6 +10,12 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			customPurple: {
+				100: '#ffe6ff',
+				200: '#b58db1',
+				300: '#805a7c',
+			},
+			customGreen: '#00c9c8',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
