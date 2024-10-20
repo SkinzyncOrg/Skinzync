@@ -127,9 +127,9 @@ export const Navbar = () => {
               </div>
             </div>
 
-            <SheetFooter className="flex-col sm:flex-col justify-start items-start">
+            <SheetFooter className="flex-col sm:flex-col items-center justify-center">
               <Separator className="mb-2" />
-              <Button className="w-full mr-2 font-bold group/arrow bg-customPurple-300 hover:bg-customPurple-200">
+              <Button className="w-full font-bold group/arrow bg-customPurple-300 hover:bg-customPurple-200">
                 Get Started
                 <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
               </Button>
@@ -186,7 +186,7 @@ export const Navbar = () => {
       </NavigationMenu>
 
       <div className="hidden lg:flex pr-1">
-        <Button className="font-bold group/arrow bg-customPurple-300 hover:bg-customPurple-200" style={{ width: '174px' }}>
+        <Button className="font-bold group/arrow bg-customPurple-300 hover:bg-customPurple-200 w-[174px]">
             Get Started
             <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
         </Button>
